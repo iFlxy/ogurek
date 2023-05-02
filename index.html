@@ -2,7 +2,7 @@
 <html lang="pl" >
 <head>
 	<meta charset="UTF-8">
-	<title>CodePen - test1</title>
+	<title>ogurek.pl</title>
 	<link rel="stylesheet" href="./style.css">
 
 	<meta charset="utf-8">
@@ -12,7 +12,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-	
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+
 	<!-- SEO and Social Sharing and SEO -->
 	<meta name="description" content="Sterydy i Dopalacze do gry Minecraft" />
 	<meta name="author" content="floppek, iFlxy, Maja ">
@@ -27,9 +28,18 @@
 	<!-- Styles -->
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="background">
 
+<body onload="myFunction()" style="margin:0;">
+  <div id="loader"></div>
+  
+  <div class="background">
+    <div class="title">
+      <h1 style="position: absolute; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);">ogurek.pl</h1>
+    </div>
   </div>
+  <div class="container">
+    <button class="abutton" id="btn1">KLIKNIJ</button>
+  </div>
+
 </body>
 </html>
